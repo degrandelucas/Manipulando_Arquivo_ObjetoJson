@@ -6,7 +6,7 @@ $objeto = json_decode($string);
 
 var_dump($objeto);
 
-echo $objeto->nome . PHP_EOL;
+echo $objeto->nome . PHP_EOL . "\n";
 
 $arrayAssociativo = json_decode($string, 'true');
 
